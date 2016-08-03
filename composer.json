@@ -1,0 +1,33 @@
+{
+	"name": "inpsyde/dynamic-test-examples",
+	"description": "Examples on how to setup and write dynamic tests for PHP and JavaScript",
+	"minimum-stability": "dev",
+	"prefer-stable": true,
+	"license": "MIT",
+	"type": "library",
+	"authors": [
+		{
+			"name": "Inpsyde GmbH",
+			"homepage": "http://inpsyde.com/",
+			"email": "hallo@inpsyde.com",
+			"role": "Company"
+		},
+		{
+			"name": "David Naber",
+			"email": "d.naber@inpsyde.com",
+			"role": "Developer"
+		}
+	],
+	"require": {
+		"php": ">=5.6"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "^5.4",
+		"inpsyde/monkery-test-case": "^2.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"Inpsyde\\DynamicTestExamples\\": "src/"
+		}
+	}
+}
